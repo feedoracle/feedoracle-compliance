@@ -1,0 +1,31 @@
+{
+  "name": "feedoracle",
+  "description": "Compliance evidence infrastructure for regulated tokenized markets",
+  "owner": {
+    "name": "FeedOracle",
+    "email": "enterprise@feedoracle.io",
+    "url": "https://feedoracle.io"
+  },
+  "plugins": [
+    {
+      "name": "feedoracle-compliance",
+      "description": "MiCA compliance checks, stablecoin risk scoring, and tamper-proof audit trail. 27 MCP tools with ES256K-signed responses. Commands: /feedoracle-check, /feedoracle-risk, /feedoracle-audit",
+      "version": "1.3.0",
+      "source": {
+        "type": "directory",
+        "path": "."
+      },
+      "category": "data-analysis",
+      "keywords": [
+        "compliance",
+        "mica",
+        "stablecoin",
+        "risk",
+        "audit-trail",
+        "kya",
+        "regulatory-evidence",
+        "regtech"
+      ]
+    }
+  ]
+}
